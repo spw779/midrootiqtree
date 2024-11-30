@@ -6,3 +6,9 @@ usethis::use_description(fields = list(
     person("Yanpeng", "Chen", email = "yanpengch@qq.com", role = c("aut", "cre"))
   )
 ))
+
+Imports:
+    ape,
+    ggtree,
+    treeio
+
