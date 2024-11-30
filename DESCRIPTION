@@ -1,11 +1,8 @@
-Package: midrootiqtree
-Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Yanpeng Chen
-Maintainer: The package maintainer <yanpengch@qq.com>
-Description: The ML tree generated from IQ-tree is ternary, we better convert to binary tree by mid-point rooting
-License: Artistic-2.0
-Encoding: UTF-8
-LazyData: true
-RoxygenNote: 7.2.3
+usethis::use_description(fields = list(
+  Title = "Reroot Phylogenetic Trees with Branch Length Adjustment",
+  Description = "An R package to reroot phylogenetic trees stored as treedata objects, with support for branch length adjustment.",
+  Version = "0.1.0",
+  Authors = c(
+    person("Yanpeng", "Chen", email = "yanpengch@qq.com", role = c("aut", "cre"))
+  )
+))
